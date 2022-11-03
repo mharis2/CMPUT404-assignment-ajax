@@ -31,6 +31,7 @@ var context = canvas.getContext("2d");
 var W = canvas.width  = window.innerWidth-6;
 var H = canvas.height = window.innerHeight-50;
 
+// callback so the world can be redrawn with new data
 let callback = function(data) {
     world = data;
 }
